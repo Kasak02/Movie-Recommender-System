@@ -6,8 +6,7 @@ The system recommends similar movies based on the movie selected by the user.
 
 
 # 🚀 Live Demo
-
-(You can add your Streamlit link here after deployment)
+https://movie-recommender-system-xejb3f6cyweiyccnszrxtm.streamlit.app/
 
 
 
@@ -98,11 +97,6 @@ Data Preprocessing
 
 
 
-# 📷 Application Preview
-
-(Add screenshots here after deployment)
-
-
 # 💡 Future Improvements
 
 • Hybrid Recommendation System
@@ -110,11 +104,10 @@ Data Preprocessing
 • Movie ratings integration
 • Deploy on cloud
 
+
 # 👩‍💻 Author
 
 Kasak Bhatia
-
-BTech (AI & Data Science)
 
 # ⭐ If you like this project
 
