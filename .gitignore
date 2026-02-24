@@ -1,0 +1,7 @@
+.venv/
+.idea/
+__pycache__/
+
+similarity.pkl
+movies.pkl
+movie_dict.pkl
