@@ -1,3 +1,5 @@
+import gdown
+import os
 import streamlit as st
 import pickle
 import pandas as pd
@@ -25,7 +27,14 @@ def recommend(movie):
     return recommended_movie_names,recommended_movie_posters
 
 
+if not os.path.exists("movie_dict.pkl"):
+    gdown.download("https://drive.google.com/uc?id=1Vx2yv5Gc1_qJZndwlP-fzJFOhbzeWCRu", "movie_dict.pkl", quiet=False)
 
+if not os.path.exists("similarity.pkl"):
+    gdown.download("https://drive.google.com/uc?id=1D3CBMiucpfiPZMAdvNtGJNvqG1T8v9_0", "similarity.pkl", quiet=False)
+
+if not os.path.exists("movies.pkl"):
+    gdown.download("https://drive.google.com/uc?id=1fJccwJYpXoLzlRP1_f-L0pWl2rmRlEtK", "movies.pkl", quiet=False)
 
 movies= pickle.load(open('movie_dict.pkl','rb'))
 movies= pd.DataFrame(movies)
