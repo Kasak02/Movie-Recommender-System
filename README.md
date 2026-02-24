@@ -12,11 +12,17 @@ https://movie-recommender-system-xejb3f6cyweiyccnszrxtm.streamlit.app/
 
 # 📌 Features
 
+
 • Recommend 5 similar movies instantly
+
 • Movie posters fetched using TMDB API
+
 • Interactive UI built with Streamlit
+
 • Content-based filtering using cosine similarity
+
 • Fast and simple recommendation system
+
 
 
 
@@ -32,25 +38,40 @@ https://movie-recommender-system-xejb3f6cyweiyccnszrxtm.streamlit.app/
 
 # 🛠 Tech Stack
 
+
 Python
+
 Pandas
+
 NumPy
+
 Scikit-Learn
+
 Streamlit
+
 TMDB API
+
 
 
 
 # 📂 Project Structure
 
 movie-recommender-system
+
 │
+
 ├── app.py
+
 ├── movie_dict.pkl
+
 ├── movies.pkl
+
 ├── similarity.pkl
+
 ├── requirements.txt
+
 └── README.md
+
 
 
 
@@ -91,18 +112,26 @@ Includes:
 # 📊 Machine Learning Concepts Used
 
 Content Based Recommendation
+
 Vectorization (CountVectorizer)
+
 Cosine Similarity
+
 Data Preprocessing
+
 
 
 
 # 💡 Future Improvements
 
 • Hybrid Recommendation System
+
 • User login system
+
 • Movie ratings integration
+
 • Deploy on cloud
+
 
 
 # 👩‍💻 Author
